@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.lt9{
+  margin: 0 auto;
+  font-size: 16px;
+  width: 600px  ;
+  text-align: center;
+}
+.lt9 p{
+  line-height: 28px;
+  text-align: center;
+  width: 600px;
+}

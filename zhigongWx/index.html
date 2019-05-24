@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>智工通</title>
+  <!-- built style files will be auto injected -->
+  <script type="text/javascript" src="./static/js/mimc1.0.0.min.js"></script>
+  <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>     <!--以下都是调地图引入的-->
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.6&key=e260f760550bc917f1fa568790e283a0"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+      (function(doc, win){
+          var docE1 = doc.documentElement,
+              resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+              recalc = function(){
+                  var clientWidth = docE1.clientWidth;
+                  if(!clientWidth) return;
+                  docE1.style.fontSize = 20 * (clientWidth / 375) + 'px';
+              };
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt,recalc,false);
+          doc.addEventListener('DOMContentLoaded',recalc,false);
+      })(document,window);
+  </script>
+  <!-- built script files will be auto injected -->
+  <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+  <!--<script type="text/javascript" src="./static/js/mimc1.0.0.min.js"></script>-->
+</body>
+</html>

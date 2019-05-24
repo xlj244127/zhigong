@@ -1,0 +1,9 @@
+#app .el-aside{
+  float: left;
+}
+#app .el-container.is-vertical{
+  float: right;
+}
+.el-container.is-vertical{
+  margin-left: 220px;
+}

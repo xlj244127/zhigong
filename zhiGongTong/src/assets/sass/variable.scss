@@ -1,0 +1,52 @@
+$darkBlue:#2087D0;
+$c3:#333;
+$c6:#666;
+$c9:#999;
+$c8:#888;
+$cf:#fff;
+$f7:#f7f7f7;
+$org:#FD8346;
+$lackOrg:#FE8300;
+$dataBlue:#51A6FE;
+$dataColor:#69839F;
+$bgEc:#ECECEC;
+$bd-e:1px solid #eee;
+$bd-d:1px solid #ddd;
+$bd-c:1px solid #ccc;
+$bd-9:1px solid #999;
+$lightBlue:#F5F9FD;
+$optBlue:#438CFF;
+$fontBlue:#32709F;
+$fontRed:#ea5250;
+$projRed:#E3314E;
+$lightRed:#ef7373;
+$red:#FE0000;
+
+@mixin brs($radius){
+  -webkit-border-radius:$radius;
+  -moz-border-radius:$radius;
+  border-radius:$radius;
+}
+%tov{
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+p{
+  margin: 0;
+}
+.pwdChangeView{
+  position: relative;
+  .changeType{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding:2px 10px 0;
+    height: 38px;
+    width: 20px;
+    img{
+      width: 100%;
+      line-height: 36px;
+    }
+  }
+}
