@@ -19,7 +19,7 @@
     "qrcode2": "^1.2.3",
     "js-cookie": "^2.2.0",
     "js-md5": "^0.7.3",
-    "moment": "^2.22.1",
+    "moment": "^2.29.2",
     "node-sass": "^4.9.0",
     "nprogress": "^0.2.0",
     "sass-loader": "^7.0.1",
